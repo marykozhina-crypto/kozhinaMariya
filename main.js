@@ -1,0 +1,1 @@
+const name = 'Nizhniy Novgorod'

@@ -42,6 +42,7 @@ console.log(Number(isTrue)) /* явное преобразование в тип
 console.log(typeof +name) /* неявное преобразование в тип строки number */
 console.log(typeof +age) /* неявное преобразование в тип строки number */
 
+// операторы сравнения
 let test = 'аромат'
 let test2 = 'ярмарка'
 console.log(Boolean(test)) /* всегда правда, потому что тип данных string */

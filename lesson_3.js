@@ -1,13 +1,16 @@
-// УР1
+// // УРОВЕНЬ 1
 
+// задание 1
 let age = prompt('Сколько тебе лет?', '');
 if (age < 18) alert('Доступ запрещён!');
 else {alert('Доступ разрешён!')};
 
+// задание 2
 let age = prompt('Скольо тебе лет?', '');
 (age < 18) ?
 alert('Доступ запрещён!') : alert('Доступ разрешён!');
 
+// задание 3
 let day = prompt('Введите число');
 switch (day) {
 case '1': 
@@ -35,15 +38,98 @@ default:
 alert('Ошибка: такого дня нет!')
 }
 
+// задание 4
 let a = 1;
 do {
 alert(a);
 a++;
 } while (a < 6);
 
+// задание 5
 for (let i = 1; i < 11; i++) {
   alert(i ** 2);
 }
 
-// УР2
+// УРОВЕНЬ 2
+
+// задание 1
+const isAdmin = true;
+const hasToken = false;
+if (isAdmin || hasToken) {
+  alert ('Доступ разрешён!');
+}
+else alert ('Нет доступа');
+
+// задание 2
+const x = 13;
+alert(x >= 10 && x <= 20 && x !== 15);
+
+// задание 3
+const n = prompt ('Введите число', '');
+while (n >= 0) {
+console.log(n);
+n--;
+}
+
+// задание 4
+for (let value = 1; value <= 10; value++) {
+  if (value === 7) continue;
+  if (value === 9) break;
+  alert(value);
+}
+
+// задание 5
+
+// !!!!!!!!!!
+
+let a = 20;
+let b = 30;
+let c = 45;
+if (let result = a < b, a < c, b < c;)
+alert(result);
+
+// УРОВЕНЬ 3
+
+// задание 1
+let temperature = prompt ('Напишите температуру в градусах Цельсия', '');
+if (temperature < -30) {
+  alert('Оставайтесь дома!');
+} else if (temperature <= -10) {
+  alert('Сегодня холодно');
+} else if (temperature <= 5) {
+  alert('Не холодно');
+} else if (temperature <= 15) {
+  alert('Тепло');
+} else if (temperature <= 25) {
+  alert('Очень тепло');
+} else if (temperature <= 35) {
+  alert('Жарко');
+} else if (temperature > 35) {
+  alert('Пекло!');
+}
+
+// задание 2
+let role = prompt ('Введите учётные данные', '')
+switch (role) {
+  case 'admin':
+    alert('Добро пожаловать, администратор!');
+    break;
+  case 'manager':
+    alert('Привет, менеджер!');
+    break;
+  case 'user':
+    alert('Рады видеть вас снова!');
+    break;
+  case 'guest':
+    alert('Пожалуйста, войдите в систему');
+    break;
+  default:
+    alert('Ошибка');
+}
+
+// заданиие 4
+for (let gagarinBday = 0; gagarinBday = 1961; gagarinBday++) {
+  alert(gagarinBday);
+  break;
+}
 

@@ -133,3 +133,14 @@ for (let gagarinBday = 0; gagarinBday = 1961; gagarinBday++) {
   break;
 }
 
+let maxYear = 2020;
+let minYear = 1800;
+let sum = 0;
+for (minYear; minYear <= maxYear; minYear++) {
+  if (minYear % 4 === 0) {
+    sum++;
+  }
+}
+alert(sum);
+
+

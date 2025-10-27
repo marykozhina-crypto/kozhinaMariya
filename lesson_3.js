@@ -80,12 +80,17 @@ for (let value = 1; value <= 10; value++) {
 
 // задание 5
 
-// !!!!!!!!!!
-
+let result;
 let a = 20;
 let b = 30;
 let c = 45;
-if (let result = a < b, a < c, b < c;)
+if (a >= b && a >= c) {
+  result = a;
+} else if (b >= a && b >= c) {
+  result = b;
+} else {
+  result = c;
+}
 alert(result);
 
 // УРОВЕНЬ 3
